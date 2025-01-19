@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* OpenLayers specific styles */
+.ol-control {
+  background-color: rgba(255,255,255,0.4);
+  border-radius: 4px;
+  padding: 2px;
+}
+
+.ol-zoom {
+  top: 0.5em;
+  left: 0.5em;
+}
